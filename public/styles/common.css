@@ -1,0 +1,84 @@
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2.5px;
+    background: rgb(242, 246, 250);
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background: #e1e2e3;
+    color: #120d0d;
+}
+.hovering-btn{
+    box-shadow: -1px 0px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.h5{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.flex-div{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-start{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-40{
+    gap: 40px;
+}
